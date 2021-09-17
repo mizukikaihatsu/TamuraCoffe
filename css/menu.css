@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* h3の見出し設定 */
+h3.heading03{
+    color: #ffde84;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    margin-bottom: 10px;
+}
+img.main_img{
+    margin-bottom: 20px;
+}
+/* 商品名と価格の横並び設定 */
+dl.hidden{
+    overflow: hidden;
+    margin-bottom: 40px;
+    line-height: 1.5em;
+}
+dt{
+    float: left;
+    width: 70%;
+    font-size: 1.2em;
+    border-block-end: #dfded9 solid 2px;
+    color: #dfded9;
+}
+dd{
+    color:#c2a990;
+}
+.left{
+    width:30%;
+    float: left;
+    text-align: right;
+    border-block-end: #dfded9 solid 2px;
+    color: #dfded9;
+}
+.clear{
+    clear: left;
+}
+.margin{
+    margin-bottom: 40px;
+
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>福丸珈琲店 || お問合せページ</title>
+<link rel="stylesheet" href="../css/reset.css" type="text/css">
+<link rel="stylesheet" href="../css/common.css" type="text/css">
+<link rel="stylesheet" href="../css/contact.css" type="text/css">
+</head>
+
+<body>
+<div id="wrap">
+	<header>
+		<h1><img src="../img/rogo.png" alt="福丸珈琲店はのお問い合わせ"></h1>
+		<p>これはダミーサイトです。<br>
+		福丸珈琲店へのお問い合わせはこちらから。</p>
+	</header>
+	<nav>
+		<ul class="gnav">
+			<li class="gnav"><a href="../index.html">トップ</a></li>
+			<li class="gnav"><a href="../menu/index.html">メニュー</a></li>
+			<li class="gnav"><a href="../contact/index.html">アクセス</a></li>
+			<li class="gnav">お問合せ</li>
+		</ul>
+	</nav>
+	<section id="main">
+		<h2>福丸珈琲店へのお問い合わせ</h2>
+		<p class="lead">ご意見・ご要望などがございましたら、お気軽にお問い合わせください。</p>
+		<form id="contact_form" action="../php/dummy.php" method="post">
+			<dl class="hidden">
+				<dt>お名前</dt>				
+				<dd class="margin"><input type="text" name="name" class="form_block"></dd>
+				<dt>メールアドレス</dt>
+				<dd class="margin"><input type="email" name="mail" class="form_block"></dd>
+				<dt>ご来店いただいたことはございますか</dt>
+				<dd class="left"><input type="radio" name="visit-history" value="はい" class="check" checked> はい</dd>
+				<dd class="margin left"><input type="radio" name="visit-history" value="いいえ" class="check"> いいえ</dd>
+				<dt class="clear">福丸珈琲店をお知りになったきっかけ</dt>
+				<dd class="margin">
+					<select name="bring" class="select">
+						<option value="インターネット">インターネット</option> 
+						<option value="通りかかったことがある">通りかかったことがある</option>
+						<option value="知人の紹介">知人の紹介</option>
+					</select>
+				</dd>
+				<dt>お問い合わせ内容</dt>
+					<dd class="left"><input type="checkbox" name="inquiry-1" value="予約" class="check">ご予約に関して</dd>
+					<dd class="left"><input type="checkbox" name="inquiry-2" value="その他" class="check">その他</dd>
+					<dd class="clear"><textarea name="comment" class="textarea"></textarea> </dd>
+			</dl>
+			<p class="clear hidden btm">
+				<input type="reset" value="リセット" class="left_btm right">
+				<input type="submit" value="送信する" class="left_btm">
+			</p>
+		</form>
+    
+    </section>
+	<footer class="clear">
+		<p class="center"><small>&copy;福丸珈琲店</small></p>
+	</footer>
+</div>
+</body>
+</html>

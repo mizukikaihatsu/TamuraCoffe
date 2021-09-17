@@ -1,0 +1,34 @@
+﻿@charset "UTF-8";
+/* 行間の設定 */
+#main{
+    margin-bottom: 50px;
+}
+#main p{
+    margin-bottom: 20px;
+}
+/* お問合せボタンの設定 */
+#btm{
+    width: 294px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#bb9b88 ;
+    border: #92725d solid 3px;
+    text-align: center;
+}
+#btm a{
+    padding:20px 0px;
+    display: block;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+#btm a:link{
+    color:#dfded9;
+}
+#btm a:visited{
+    color:#463a30;
+}
+#btm a:hover{
+    color:#ffcd83;
+}
+
+

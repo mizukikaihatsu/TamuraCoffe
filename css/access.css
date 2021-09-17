@@ -1,0 +1,53 @@
+@charset "UTF-8";
+.map {
+    position: relative;     /* 要素の配置を相対座標に指定 */
+    width: 100%;              /* 要素の幅を100%に */
+    height: 0;                /* 要素の高さ0に */
+    padding-bottom: 75%;      /* 内余白の下部を75%に */
+}
+
+.map iframe {
+    width: 100%;              /* 要素の幅を100%に */
+    height: 100%;             /* 要素の高さ0に */
+    position: absolute;       /* 要素の配置を絶対座標に指定 */
+    top: 0;                   /* 上部分を基準点から0の位置に */
+    left: 0;                  /* 左部分を基準点から0の位置に */
+    bottom: 0;                /* 下部分を基準点から0の位置に */
+    right: 0;                 /* 右部分を基準点から0の位置に */
+}
+/* 余白を調整 */
+#main{
+    margin-bottom: 30px;
+}
+address{
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+address table{
+    margin-bottom: 30px;
+    width: 100%;
+}
+/* 表の内罫線を設定 */
+address tr{
+    border-bottom: 1px dashed #8a7b69;
+}
+address tr:last-child{
+    border-bottom: none;
+}
+/* 表見出しのスタイル */
+address th{
+    width: 20%;
+    min-width: 70px;
+    padding:10px 20px;
+    color: #fcf0d0;
+    font-weight: normal;
+    text-align:justify;
+    background-color: #4b3f30;
+}
+/* 基本セルのスタイル */
+address td{
+    padding:10px 20px;
+    color: #4b3f30;
+    background-color: #fcf0d0;
+}
+
