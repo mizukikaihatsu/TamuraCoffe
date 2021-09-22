@@ -76,7 +76,15 @@ dd{
     margin-left: auto;
     margin-right: auto;
     width:500px;
+    padding-bottom: 50px;
 }
+
+a {
+    color: black !important;
+/* ホバー時の下線 */
+    text-decoration: none !important;
+}
+
 .class{
     Width:20%;
     height: 20%;
