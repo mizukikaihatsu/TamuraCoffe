@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* ウィンドウ画面の背景色を設定 */
 body{
-    background-color:#2c2724 ;
+    background:  url(../images/hempbg.jpg);
     font-family: 'Sawarabi Gothic', sans-serif;
 }
 
