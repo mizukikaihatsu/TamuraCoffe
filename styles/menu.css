@@ -19,12 +19,14 @@ dl.hidden{
 dt{
     float: left;
     width: 70%;
-    font-size: 1.2em;
+    font-size: 1.5em;
     border-block-end: #dfded9 solid 2px;
-    color: #dfded9;
+    color: #ffe0a6;
 }
 dd{
-    color:#c2a990;
+    color:#eee7d1;
+    font-size: 1.2em;
+
 }
 .left{
     width:30%;
